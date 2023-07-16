@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://i.pinimg.com/564x/c2/15/26/c21526a01598618d77e305bbd81227f2.jpg");
+    /* background-color: rgba(0, 0, 0, 0.825); */
+}
+#nav{
+    height: 12vh;
+    padding: 3rem 26rem;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9em;
+    font-weight: 20;
+}
+#nav>h1{
+    font-size: 2rem;
+    font-family: EditorialNew-Light;
+}
+#heading{
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading>h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 1.3rem;
+    margin-left: 2rem;
+}
+#main_img{
+    position: relative;
+    height: 60vh;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main_img>h1{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/564x/24/62/b6/2462b6ece3ac02f8379cf27508fdb954.jpg");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 20px 20px 50rem white;
+    top: -10%;
+    font-size: 24rem;
+    z-index: 1;
+}
+#main_img img{
+    position: absolute;
+    height: 50rem;
+    top: -19%;
+    filter:drop-shadow(40px 40px 20px #463f35) ;
+    z-index: 9;
+}
+#footer{
+    /* background-color: brown; */
+    padding: 3rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer #arrow img{
+    transform: rotate(270deg);
+    /* color: white; */
+    filter: drop-shadow(4px 4px 20px white );
+}
+#footer #butt button{
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    height: 3.4rem;
+    width: 11rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    box-shadow: 2px 1px 10px white;
+}
+#pera h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5rem;
+    font-weight: 100;
+}
