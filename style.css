@@ -12,6 +12,7 @@ html,body{
     height: 100vh;
     width: 100vw;
     background-image: url("https://i.pinimg.com/564x/c2/15/26/c21526a01598618d77e305bbd81227f2.jpg");
+    overflow :hidden;
     /* background-color: rgba(0, 0, 0, 0.825); */
 }
 #nav{
